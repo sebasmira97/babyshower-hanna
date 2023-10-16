@@ -1,35 +1,54 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const activar = () => {
+    const mobileMenu = document.querySelector(".mobile-menu");
+    if(!mobileMenu.className.contains("inactive")){
+      mobileMenu.className.add("inactive");
+    }
+  }
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <nav>
+        <div className="navbar-left">
+          <img src="public/img/Hanna.png" alt="logo" className="logo"></img>
+        </div>
+
+        <div className="navbar-right">
+          <button className="menuMobile" onClick={activar}>
+            <img src="public/icon_menu.svg" alt="menu" class="menu" ></img>
+          </button>
+          
+          <ul>
+            <li>
+              <a href="/">All</a>
+            </li>
+            <li>
+              <a href="/">Regalos</a>
+            </li>
+            <li>
+              <a href="/">Asistencia</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="mobile-menu">
+          <ul>
+            <li>
+              <a href="/">All</a>
+            </li>
+            <li>
+              <a href="/">Regalos</a>
+            </li>
+            <li>
+              <a href="/">Asistencia</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
 
 export default App
