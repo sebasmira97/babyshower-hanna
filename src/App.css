@@ -1,7 +1,7 @@
 :root {
   --white: #FFFFFF;
   --black: #000000;
-  --very-light-pink: #C7C7C7;
+  --azul-baby: #00B0D0;
   --text-input-field: #F7F7F7;
   --hospital-green: #ACD9B2;
   --sm: 14px;
@@ -10,7 +10,10 @@
 }
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Chewy';
+  background-image: url('public/img/Hanna Baby Shower-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .inactive {

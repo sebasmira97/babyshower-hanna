@@ -1,0 +1,40 @@
+.portada{
+    display: flex;
+    margin: 0 60px 0 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circulo{
+    width: 40%;
+    height: auto;
+    border: 3px dashed var(--azul-baby);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+.informacion{
+    display: flex;
+    align-items: center;
+}
+
+.informacion h1{
+    color: var(--azul-baby);
+    font-size: 30px;
+}
