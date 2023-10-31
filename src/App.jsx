@@ -22,7 +22,7 @@ function App() {
           
           <ul>
             <li>
-              <a href="/">All</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="/">Regalos</a>

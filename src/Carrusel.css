@@ -1,0 +1,35 @@
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagenes img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.anterior {
+    left: 10px;
+}
+
+.siguiente {
+    right: 10px;
+}

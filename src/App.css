@@ -2,8 +2,8 @@
   --white: #FFFFFF;
   --black: #000000;
   --azul-baby: #00B0D0;
-  --text-input-field: #F7F7F7;
-  --hospital-green: #ACD9B2;
+  --rosa-baby: #FF95BA;
+  --amarillo-baby: #FFD347;
   --sm: 14px;
   --md: 16px;
   --lg: 18px;
@@ -31,7 +31,9 @@ nav {
   display: none;
 }
 .logo {
-  width: 170px;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .navbar-left ul,
 .navbar-right ul {
@@ -48,18 +50,16 @@ nav {
 
 .navbar-right ul li a {
   text-decoration: none;
-  color: var(--very-light-pink);
-  border: 1px solid var(--white);
-  padding: 8px;
-  border-radius: 8px;
+  color: var(--amarillo-baby);
+  border: 2px solid var(--azul-baby);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .navbar-right ul li a {
-  font-weight: bold;
-  border: 1px solid var(--hospital-green);
-  color: var(--white);
-  background-color: var(--hospital-green);
-  margin-right: 10px;
+  border-color: var(--rosa-baby);
+  color: var(--rosa-baby);
+  margin-right: 15px;
 }
 
 /* Menu en mobile */
@@ -95,14 +95,7 @@ nav {
   font: inherit;
   cursor: pointer;
 }
-.email {
-  font-size: var(--sm);
-  font-weight: 300 !important;
-}
-.sign-out {
-  font-size: var(--sm);
-  color: var(--hospital-green) !important;
-}
+
 
 @media (max-width: 640px) {
   .menu {
