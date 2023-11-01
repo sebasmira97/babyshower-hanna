@@ -68,29 +68,54 @@
 
 .general {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin: 0 60px 0 60px;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 16px;
     margin-bottom: 40px;
 }
 
-.body {
-    display: grid;
-    justify-content: center;
+/* .body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--white);
     margin-top: 24px;
     margin-bottom: 40px;
-    width: 80%;
     height: auto;
     color: var(--white);
     border-radius: 20px;
-}
+} */
 .botones {
     display: flex;
+    width: 80%;
     justify-content: center;
+    
+}
+
+.asistencia {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.botones a {
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--azul-baby);
+    color: var(--white);
+    border: 2px solid var(--azul-baby);
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    margin: 40px 15px 30px 15px;
 }
 
 .carru {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
+    margin-bottom: 40px;
 }

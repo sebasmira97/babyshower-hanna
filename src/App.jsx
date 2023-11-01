@@ -25,10 +25,10 @@ function App() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Regalos</a>
+              <a href="#fotos">Fotos</a>
             </li>
             <li>
-              <a href="/">Asistencia</a>
+              <a href="#asistencia">Asistencia</a>
             </li>
           </ul>
         </div>
