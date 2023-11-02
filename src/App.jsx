@@ -12,7 +12,7 @@ function App() {
     <>
       <nav>
         <div className="navbar-left">
-          <img src="/public/img/Hanna.png" alt="logo" className="logo"></img>
+          <img src="https://static.wixstatic.com/media/800a42_1f99c9f868cd4a60bfa16e1343f686fb~mv2.png" alt="logo" className="logo"></img>
         </div>
 
         <div className="navbar-right">
@@ -29,20 +29,6 @@ function App() {
             </li>
             <li>
               <a href="#asistencia">Asistencia</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="mobile-menu">
-          <ul>
-            <li>
-              <a href="/">All</a>
-            </li>
-            <li>
-              <a href="/">Regalos</a>
-            </li>
-            <li>
-              <a href="/">Asistencia</a>
             </li>
           </ul>
         </div>
