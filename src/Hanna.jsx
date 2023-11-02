@@ -10,7 +10,7 @@ function Hanna() {
       <section className='portada'>
         <div className='circulo'>
           <div className='foto'>
-            <img src="public/img/SebasDani.jpeg"></img>
+            <img src="/public/img/SebasDani.jpeg"></img>
           </div>
         </div>
         <div className='informacion'>

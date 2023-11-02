@@ -12,7 +12,7 @@ function App() {
     <>
       <nav>
         <div className="navbar-left">
-          <img src="public/img/Hanna.png" alt="logo" className="logo"></img>
+          <img src="/public/img/Hanna.png" alt="logo" className="logo"></img>
         </div>
 
         <div className="navbar-right">
