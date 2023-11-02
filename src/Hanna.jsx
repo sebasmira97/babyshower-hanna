@@ -10,7 +10,7 @@ function Hanna() {
       <section className='portada'>
         <div className='circulo'>
           <div className='foto'>
-            <img href="https://drive.google.com/file/d/1_l1zlR8mLbqJULz27BtR_C2RcCeuamGs/view?usp=sharing"></img>
+            <img src="https://static.wixstatic.com/media/800a42_8c8ad75640b34518a0fa351ff2a4c8b7~mv2.jpeg"></img>
           </div>
         </div>
         <div className='informacion'>
