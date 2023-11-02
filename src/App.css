@@ -96,3 +96,8 @@ nav {
   cursor: pointer;
 }
 
+@media (max-width: 550px) {
+  .navbar-left, .navbar-right{
+    display: none;
+  }
+}

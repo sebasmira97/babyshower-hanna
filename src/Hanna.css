@@ -179,3 +179,21 @@
         margin-top: 10px;
     }
 }
+
+@media (max-width: 550px){
+    .portada{
+        margin-top: 30px;
+    }
+
+    .general{
+        margin: 16px 20px 30px 20px;
+    }
+    .portada{
+        margin: 16px 16px 4px 16px;
+    }
+    .botones a{
+        margin: 5px 6px 5px 6px;
+        width: 40%;
+        font-size: 3vw;
+    }
+}

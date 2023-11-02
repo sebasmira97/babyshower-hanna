@@ -16,9 +16,6 @@ function App() {
         </div>
 
         <div className="navbar-right">
-          <button className="menuMobile" onClick={activar}>
-            <img src="public/icon_menu.svg" alt="menu" class="menu" ></img>
-          </button>
           
           <ul>
             <li>
