@@ -3,7 +3,7 @@ import './Carrusel.css'
 
 const Carrusel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const images = ['public/img/Imagen1.jpeg', 'public/img/Imagen2.jpeg', 'public/img/Imagen3.jpeg', 'public/img/Imagen4.jpeg',
+    const images = ['public/Imagen1.jpeg', 'public/Imagen2.jpeg', 'public/Imagen3.jpeg', 'public/img/Imagen4.jpeg',
     'public/img/Imagen5.jpeg', 'public/img/Imagen6.jpeg', 'public/img/Imagen7.jpeg', 'public/img/SebasDani.jpeg']; // Agrega más imágenes según sea necesario
 
     const prevSlide = () => {

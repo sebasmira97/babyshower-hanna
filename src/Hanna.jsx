@@ -15,7 +15,7 @@ function Hanna() {
         </div>
         <div className='informacion'>
           <h1>Baby Shower</h1>
-          <img src='public/img/Hanna.png'></img>
+          <img src='/public/Hanna.png'></img>
           <div className='info-dia'>
             <p>Nov.<br></br>25</p>
             <div className='linea-vertical'></div>
